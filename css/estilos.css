@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Uncial+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Uncial+Antiqua&display=swap');
+body{
+  font-family: sans-serif;
+  background-color:#e7d5d9;
+  color:#424242;
+  margin: 32px;
+  padding: 16px;
+}
+
+p{
+  font-family: cursive;
+  text-align: justify-all;
+}
+
+h2{
+    font-family: 'Uncial Antiqua', cursive;
+}
+img{
+  max-width: 100%;
+    border-radius: 20px;
+}
+
+.logo{
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-gap:0px;
+  border-radius: 0px;
+
+}
+
+
+.box{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:32px;
+  border-radius: 20px;
+
+}
+
+.box2{
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-gap:32px;
+  border-radius: 20px;
+
+}
+
+article{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+main.box article{
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+
+}
+
+main.box2 article{
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#titulo{
+  text-shadow: 0.1em 0.1em 0.15em #ec3b83;
+  background-color: #660a30;
+  color:yellow;
+  padding-left:48px;
+  padding-top:10px;
+  padding-right: 48px;
+  padding-bottom: 1px;
+  border-radius: 20px 20px 0px 0px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top:0px;
+  margin-right: 0px;
+}
+
+#imagem{
+  padding-right: 10px;
+  max-width: 100%;
+}
+
+
+footer{
+  background-color: #660a30;
+  color:orange;
+  /*padding:48px 10px;*/
+  padding-left:10px;
+  padding-top:5px;
+  padding-right: 10px;
+  padding-bottom: 5px;  
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+article a{
+text-decoration: none;
+background-color: #424242;
+color:yellow;
+padding: 22px 42px;
+display: block;
+border-radius: 10px;
+transition: all 0.4s;
+}
+
+article p{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+
+article a:hover{
+  text-decoration: none;
+  background-color: yellow;
+  color:#424242;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: block;
+  border-radius: 10px;
+}
+
+nav{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  grid-gap: 5px;
+  background-color: #660a30;
+  padding-left: 22px;
+  border-radius: 0px 0px 20px 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-bottom: 22px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+
+}
+
+nav a{
+  color:orange;
+  text-decoration: none;
+}
+
+
+.botao {
+font:bold 20px Tahoma, Geneva, sans-serif;
+font-style:normal;
+color:orange;
+background:#660a30;
+border:0px solid #ffffff;
+text-shadow:0px -1px 1px #222222;
+box-shadow:2px 2px 5px #000000;
+-moz-box-shadow:2px 2px 5px #000000;
+-webkit-box-shadow:2px 2px 5px #000000;
+border-radius:10px 10px 10px 10px;
+-moz-border-radius:10px 10px 10px 10px;
+-webkit-border-radius:10px 10px 10px 10px;
+width:120px;
+padding:10px 34px;
+cursor:pointer;
+margin:0 auto;
+text-decoration: none;
+}
+
+.botao:active {
+cursor:pointer;
+position:relative;
+top:2px 
+}
